@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vilson A. Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <nav class= "top">
-      <h1 class="title">Vilson A.</h1>
-      <a href="#about-me" class="links">About Me</a>
-      <a href="#projects" class="links">Projects</a>
-      <a href="#contact-me" class="links">Contact me</a>
-    </nav>
-    <header id="about-me">
-        <h2>About Me:</h2>
-        <p>Describe me! Try to make this longer and more helpful.</p>
-    </header>
-    <main id="projects">
-        <h2>Projects:</h2>
-        <section class="card1">
-            <h3 class="projectName">Project 1</h3>
-            <p class="projectDesc"></p>
-            <img src="" alt="">
-        </section>
-        <section class="card2">
-            <h3 class="projectName">Project 2</h3>
-            <p class="projectDesc"></p>
-            <img src="" alt="">
-        </section>
-        <section class="card3">
-            <h3 class="projectName">Project 3</h3>
-            <p class="projectDesc"></p>
-            <img src="" alt="">
-        </section>
-        <section class="card4">
-            <h3 class="projectName">Project 4</h3>
-            <p class="projectDesc"></p>
-            <img src="" alt="">
-        </section>
-        <section class="card5">
-            <h3 class="projectName">Project 5</h3>
-            <p class="projectDesc"></p>
-            <img src="" alt="">
-        </section>
-    </main>
-    <footer id="contact-me">
-        <h2>Contact Me:</h2>
-        <a href="mailto:vilsonapo@gmail.com">Vilsonapo@gmail.com</a>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vilson A. Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <nav class="top">
+    <h1 class="title">Vilson A.</h1>
+    <a href="#about-me" class="links">About Me</a>
+    <a href="#projects" class="links">Projects</a>
+    <a href="#contact-me" class="links">Contact me</a>
+  </nav>
+  <header id="about-me">
+    <h2>About Me:</h2>
+    <p>Describe me! Try to make this longer and more helpful.</p>
+  </header>
+  <main id="projects" class="container">
+    <h2>Projects:</h2>
+    <div class="row">
+      <section class="card1 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+              <img class="card-img-top" src="./assets/images/foodfinder.png" alt="Food Finder project">
+              <div class="card-body">
+                  <h5 class="card-title">Food Finder</h5>
+                  <p class="card-text">Find Recipes for your favorite foods and discover nearby restaurants!</p>
+                  <a href="https://thinker92.github.io/FoodFinder/" class="btn btn-primary">See Project</a>
+              </div>
+          </div>
+      </section>
+  
+      <section class="card2 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+              <img class="card-img-top" src="./assets/images/weather-repo.png" alt="Weather Repo project">
+              <div class="card-body">
+                  <h5 class="card-title">Weather Repo</h5>
+                  <p class="card-text">Weather app for displaying a searched city's weather and 5 day forecast</p>
+                  <a href="https://thinker92.github.io/Weather-Repo/" class="btn btn-primary">See Project</a>
+              </div>
+          </div>
+      </section>
+  
+      <section class="card3 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+              <img class="card-img-top" src="./assets/images/password-generator.png" alt="JavaScript Password Generator project">
+              <div class="card-body">
+                  <h5 class="card-title">JavaScript Password Generator</h5>
+                  <p class="card-text">Basic password generator written in JavaScript</p>
+                  <a href="https://thinker92.github.io/Javascript-Password-Generator/" class="btn btn-primary">See Project</a>
+              </div>
+          </div>
+      </section>
+  
+  </main>
+  <footer id="contact-me">
+    <h2>Contact Me:</h2>
+    <a href="mailto:vilsonapo@gmail.com">Vilsonapo@gmail.com</a>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
